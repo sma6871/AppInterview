@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">AppInterview</string>
+    <string name="register_input_data_message">لطفا اطلاعات ورود خود را وارد نمایید</string>
+    <string name="fill_this_field">لطفا این فیلد را تکمیل کنید</string>
+    <string name="name">نام</string>
+    <string name="lastName">نام خانوادگی</string>
+    <string name="mobile">تلفن همراه</string>
+    <string name="phone">تلفن ثابت</string>
+    <string name="register">ثبت نام</string>
+    <string name="address">آدرس</string>
+    <string name="male">آقا</string>
+    <string name="female">خانم</string>
+    <string name="gender">جنسیت</string>
+    <string name="next_step">مرحله بعد</string>
+
+    <string-array name="genders">
+        <item>@string/male</item>
+        <item>@string/female</item>
+    </string-array>
+    <string name="title_activity_map">Map</string>
+    <string name="location_in_map">موقعیت روی نقشه</string>
+    <string name="select_location_message">موقعیت مورد نظر خود را روی نقشه مشخص کنید</string>
+    <string name="accept_location">تایید موقعیت</string>
+    <string name="phone_error">شماره را صحیح وارد کنید</string>
+    <string name="address_added_success">آدرس با موفقیت افزوده شد</string>
+    <string name="add_address">افزودن آدرس</string>
+    <string name="all_address">لیست آدرس ها</string>
+</resources>

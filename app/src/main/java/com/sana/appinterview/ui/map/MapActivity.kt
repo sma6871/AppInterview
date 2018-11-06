@@ -94,4 +94,8 @@ class MapActivity : BaseActivity(), OnMapReadyCallback, MapView {
         startActivity(intent)
         finish()
     }
+    override fun onDestroy() {
+        super.onDestroy()
+        presenter.onDestroy()
+    }
 }

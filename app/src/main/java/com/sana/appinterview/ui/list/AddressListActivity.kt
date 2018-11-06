@@ -27,5 +27,9 @@ class AddressListActivity : BaseActivity(), AddressListView {
         addressList.adapter = adapter
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        presenter.onDestroy()
+    }
 
 }
